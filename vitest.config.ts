@@ -1,9 +1,8 @@
-import { fileURLToPath } from 'node:url'
 import { defineConfig } from 'vitest/config'
 
 export default defineConfig({
-  // Même alias que dans tsconfig.json : « @/ » désigne le répertoire src/.
-  resolve: { alias: { '@': fileURLToPath(new URL('./src', import.meta.url)) } },
+  // Les alias (« @/ » = racine du projet) sont lus directement dans tsconfig.json.
+  resolve: { tsconfigPaths: true },
   test: {
     // Les tests s'exécutent dans Node.js, sans navigateur simulé.
     environment: 'node',
