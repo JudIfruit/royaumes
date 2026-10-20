@@ -1,4 +1,4 @@
-import { getServer } from '@/src/bootstrap/server'
+import { getServer } from '@/bootstrap/server'
 
 // Point d'entrée unique de l'API : Next.js délègue toutes les requêtes /api/* à Hono.
 

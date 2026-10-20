@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { HealthStatus } from '@/src/modules/system/ui'
+import { HealthStatus } from '@/modules/system/ui'
 
 /**
  * Page d'accueil provisoire.

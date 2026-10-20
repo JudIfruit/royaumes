@@ -1,7 +1,7 @@
 'use client'
 import { hc } from 'hono/client'
 import { useCallback, useEffect, useState } from 'react'
-import { Entity } from '@/src/ui/entity'
+import { Entity } from '@/ui/entity'
 import type { RealmApi } from './api'
 import {
   BUILDINGS,

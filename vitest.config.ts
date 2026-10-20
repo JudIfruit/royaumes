@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitest/config'
 
 export default defineConfig({
-  // Les alias (« @/ » = racine du projet) sont lus directement dans tsconfig.json.
+  // Les alias (« @/ » = dossier src/) sont lus directement dans tsconfig.json.
   resolve: { tsconfigPaths: true },
   test: {
     // Les tests s'exécutent dans Node.js, sans navigateur simulé.
