@@ -36,7 +36,7 @@ export function createBetterAuth(db: Db): AuthPort {
     secret: resolveSecret(),
     baseURL: resolveBaseUrl(),
     // Limitation du nombre de tentatives : voir la sous-partie 2.3.
-        // Limitation du nombre de tentatives : voir la sous-partie 2.3.
+    // Limitation du nombre de tentatives : voir la sous-partie 2.3.
     // DETTE TECHNIQUE DT-004 (docs/qualite/dette-technique.md) : les compteurs sont conservés
     // dans la mémoire de chaque instance, et ne sont donc pas partagés entre instances.
     rateLimit: {
