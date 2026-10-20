@@ -32,7 +32,7 @@ function sessionCookie(res: Response): Headers {
   return new Headers({ cookie })
 }
 
-const alice = { email: 'alice@example.com', password: 'motdepasse-solide', name: 'Alice' }
+const alice = { email: 'alice@example.com', password: 'jhZQVFZYZGLIFUezfgevfuyesK>Jbe', name: 'Alice' }
 
 describe('Adaptateur Better Auth', () => {
   it("inscrit un joueur et l'identifie grâce à son cookie de session", async () => {
